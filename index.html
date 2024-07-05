@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+		<title>GUIMAP</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="manifest" href="manifest.json">
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<img src="img/logo guimap.png" alt="">
+			</div>
+			<ul id="menuList">
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="#1">CATEGORIAS</a></li>
+				<li><a href="">CONTACTO</a></li>
+			</ul>
+			<div class="menu-icon">
+				<i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+			</div>
+		</nav>
+		<script>
+			let menuList = document.getElementById("menuList")
+			menuList.style.maxHeight = "0px";
+	
+			function toggleMenu(){
+				if(menuList.style.maxHeight == "0px")
+				{
+					menuList.style.maxHeight = "300px";
+				}
+				else{
+					menuList.style.maxHeight = "0px";
+				}
+			}
+			
+		</script>
+		<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+		<section class="banner">
+			<div class="content-banner">
+				<p>La Paz-Bolivia</p>
+				<h2>Copacabana<br />Lugar turistico</h2>
+				<a href="#">Buscar</a>
+			</div>
+		</section>
+		<main class="main-content">
+			<center><h1 id="1">CATEGORIAS</h1></center>
+			<section class="container container-features">
+				<div class="card-feature">
+					<img src="img/1.png" alt="">
+					<div class="feature-content">
+						<span>RESTAURANTE</span>
+						<a href="cat/1.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/2.png" alt="">
+					<div class="feature-content">
+						<span>TERMINAL DE BUSES</span>
+						<a href="cat/2.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/3.png" alt="">
+					<div class="feature-content">
+						<span>VIAJES POR LA CIUDAD</span>
+						<a href="cat/3.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/4.png" alt="">
+					<div class="feature-content">
+						<span>HOSTALES Y HOTELES</span>
+						<a href="cat/4.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/5.png" alt="">
+					<div class="feature-content">
+						<span>INSTITUTOS Y UNIVERSIDADES</span>
+						<a href="cat/5.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/6.png" alt="">
+					<div class="feature-content">
+						<span>CANCHAS Y STADIUMS</span>
+						<a href="cat/6.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/7.png" alt="">
+					<div class="feature-content">
+						<span>LUGARES RECREATIVOS</span>
+						<a href="cat/7.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/8.png" alt="">
+					<div class="feature-content">
+						<span>BANCOS Y CAJEROS ATM</span>
+						<a href="cat/8.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/9.png" alt="">
+					<div class="feature-content">
+						<span>LUGARES ADMINISTRATIVOS</span>
+						<a href="cat/9.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/10.png" alt="">
+					<div class="feature-content">
+						<span>HOSPITALES Y FARMACIAS</span>
+						<a href="cat/10.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/11.png" alt="">
+					<div class="feature-content">
+
+						<span>TIENDA</span>
+						<a href="cat/11.html">Ir a categoria</a>
+					</div>
+				</div>
+				<div class="card-feature">
+					<img src="img/12.png" alt="">
+					<div class="feature-content">
+						<span>PARQUEOS</span>
+						<a href="cat/12.html">Ir a categoria</a>
+					</div>
+				</div>
+			</section>
+			<section class="container top-categories">
+				<b><h1 class="heading-1">Sugerencias de Lugar</h1></b>
+				<div class="container-categories">
+					<div class="card-category category-moca">
+						<p>Puerta del sol</p>
+						<span>Ver ruta</span>
+					</div>
+					<div class="card-category category-expreso">
+						<p>Isla de la Luna</p>
+						<span>Ver ruta</span>
+					</div>
+					<div class="card-category category-capuchino">
+						<p>Copacabana</p>
+						<span>Ver ruta</span>
+					</div>
+				</div>
+			</section>
+			<section class="container top-categories">
+				<b><h1 class="heading-1">Sugerencias de Restaurantes</h1></b>
+				<div class="container-categories">
+					<div class="card-category category-PACUMUTO">
+						<p>PACUMUTOS</p>
+						<span>Ver ruta</span>
+					</div>
+					<div class="card-category category-POLLOS-COPACABANA">
+						<p>POLLOS COPACABANA</p>
+						<span>Ver ruta</span>
+					</div>
+					<div class="card-category category-POLLOS-COCHABAMBA">
+						<p>POLLOS COCHABAMBA</p>
+						<span>Ver ruta</span>
+					</div>
+				</div>
+			</section>
+			<section class="gallery">
+				<img
+					src="img/MERCADO-DE-LAS-BRUJAS-LA-PAZ.jpg"
+					alt="Gallery Img1"
+					class="gallery-img-1"
+				/><img
+					src="img/TAKESI-LA-PAZ.jpg"
+					alt="Gallery Img2"
+					class="gallery-img-2"
+				/><img
+					src="img/MIRADOR-KILLI-KILLI-LA-PAZ.jpg"
+					alt="Gallery Img3"
+					class="gallery-img-3"
+				/><img
+					src="img/teleferico.jfif"
+					alt="Gallery Img4"
+					class="gallery-img-4"
+				/><img
+					src="img/plaza murillo.jfif"
+					alt="Gallery Img5"
+					class="gallery-img-5"
+				/>
+			</section>
+			<section class="container top-categories">
+				<b><h1 class="heading-1">Sugerencias de Lugares</h1></b>
+				<div class="container-categories">
+					<div class="card-category category-VALLE">
+						<p>VALLE DE LA LUNA</p>
+						<span>Ver ruta</span>
+					</div>
+					<div class="card-category category-MURILLO">
+						<p>PLAZA-MURILLO</p>
+						<span>Ver ruta</span>
+					</div>
+					<div class="card-category category-BRUJA">
+						<p>MERCADO DE LAS BRUJAS</p>
+						<span>Ver ruta</span>
+					</div>
+				</div>
+			</section>
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Desarrollado por Miscrack &copy; 2024
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
