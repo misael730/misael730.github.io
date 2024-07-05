@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+		<title>GUIMAP</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="logo">
+				<img src="img/logo guimap.png" alt="">
+			</div>
+			<ul id="menuList">
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="">CONTACTO</a></li>
+			</ul>
+			<div class="menu-icon">
+				<i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+			</div>
+		</nav>
+		<script>
+			let menuList = document.getElementById("menuList")
+			menuList.style.maxHeight = "0px";
+	
+			function toggleMenu(){
+				if(menuList.style.maxHeight == "0px")
+				{
+					menuList.style.maxHeight = "300px";
+				}
+				else{
+					menuList.style.maxHeight = "0px";
+				}
+			}
+			
+		</script>
+		<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+		<main class="main-content">
+			<br><br>
+			<center><h1>ESTADIUMS Y CANCHAS</h1></center>
+			<section class="container container-features">
+				<div class="card-feature">
+					<img src="img/hernando siles.jpg" alt="">
+					<div class="feature-content">
+						<span>Estadium Hernando Siles</span>
+						<a href="6ejp.html">Ver ruta</a>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

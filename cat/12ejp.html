@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guimap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/logo guimap.png" alt="">
+        </div>
+        <ul id="menuList">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="">CONTACTO</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <center><h1>hotel</h1></center>
+    <center><img width="500px" src="img/terminal de el alto.png" alt=""></center>
+    <br><br><br>
+   <center><h1>RUTAS</h1></center>
+   <br><br>
+    <h2><center>De aqui partes en minibus o trufi</center></h2>
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1912.7436529218808!2d-68.13763615146082!3d-16.501454319320125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f218a4ca46259%3A0x5fef15c0f809e227!2sPlaza%20Belen!5e0!3m2!1ses-419!2sbo!4v1720071982438!5m2!1ses-419!2sbo" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+    <br><br>
+    <h2><center><a href="https://maps.app.goo.gl/BChLZsgx8v838XN8A">Abre tu gps aqui con tu ruta desde la ceja de El Alto</a></center></h2>
+    <br><br>
+    <h2><center><a href="https://maps.app.goo.gl/wk8rk7H4a1mLurXD9">Abre tu gps aqui con una ruta en la ciudad de La paz</a></center></h2>
+    <br><br>
+    <center><h2>Destino</h2></center>
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1911.2508182541255!2d-68.03904927408068!3d-16.651738872387103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2ff3f646c947%3A0x932970ac3f50ab62!2sLos%20Pacumutos%20Steak%20House!5e0!3m2!1ses-419!2sbo!4v1720072231696!5m2!1ses-419!2sbo" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+</body>
+</html>

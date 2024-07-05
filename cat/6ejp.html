@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guimap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/logo guimap.png" alt="">
+        </div>
+        <ul id="menuList">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="">CONTACTO</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <center><h1>Estadium Hernando Siles</h1></center>
+    <center><img width="500px" src="img/hernando siles.jpg" alt=""></center>
+    <br><br><br>
+   <center><h1>RUTAS</h1></center>
+   <br><br>
+    <h2><center>Ruta de El Alto</center></h2>
+     <br><br>
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d122427.72924879486!2d-68.22804219491694!3d-16.482294178578048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d-16.5050405!2d-68.1630322!4m5!1s0x915f2068f229a7eb%3A0xc25d2f7d5b2c81ce!2sEstadio%20Ol%C3%ADmpico%20Hernando%20Siles%2C%20Plaza%20del%20Estadio%2C%20Avenida%20Saavedra%2C%20La%20Paz!3m2!1d-16.4994236!2d-68.1226674!5e0!3m2!1ses-419!2sbo!4v1720168069633!5m2!1ses-419!2sbo" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+    <center><h2>Destino</h2></center>
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.3109665514157!2d-68.12608693362206!3d-16.50020335225197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2068f229a7eb%3A0xc25d2f7d5b2c81ce!2sEstadio%20Ol%C3%ADmpico%20Hernando%20Siles!5e0!3m2!1ses-419!2sbo!4v1720168244367!5m2!1ses-419!2sbo" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+</body>
+</html>
