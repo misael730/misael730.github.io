@@ -617,7 +617,10 @@ nav ul li a{
 	.heading-1 {
 		font-size: 2.8rem;
 	}
-
+	iframe{
+		width:400;
+		height:250;
+	}
 	.card-feature {
 		flex-direction: column;
 		border-radius: 2rem;
